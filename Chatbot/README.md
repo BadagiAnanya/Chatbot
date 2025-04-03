@@ -76,4 +76,4 @@ The chatbot will generate responses based on the document using RAG.
 
 ## **Deployed Model**  
 You can use the deployed chatbot at:  
-📌 [Chatbot Interface](https://github.com/BadagiAnanya/Chatbot/blob/main/Chatbot/model.py)
+📌 [Chatbot Interface](chatbot ∙ main ∙ Chatbot/model.py)
