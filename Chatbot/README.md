@@ -76,4 +76,4 @@ The chatbot will generate responses based on the document using RAG.
 
 ## **Deployed Model**  
 You can use the deployed chatbot at:  
-📌 [Chatbot Interface]([chatbot ∙ main ∙ Chatbot/model.py](https://chatbot-version01.streamlit.app/))
+📌 [Chatbot Interface][([chatbot ∙ main ∙ Chatbot/model.py](https://chatbot-version01.streamlit.app/))](https://chatbot-version01.streamlit.app/)
