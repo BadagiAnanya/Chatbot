@@ -1,25 +1,21 @@
 AI Chatbot with RAG using LangChain and Groq
-Overview
-This project builds an AI chatbot that leverages Retrieval-Augmented Generation (RAG), LangChain, and Groq to provide intelligent responses based on uploaded documents.
+This project builds an AI chatbot leveraging Retrieval-Augmented Generation (RAG), LangChain, and Groq to provide intelligent responses based on uploaded documents.
 
 Project Layout
 The project is divided into three phases:
 
-Setup UI for the Chatbot
-
+1. Setup UI for the Chatbot
 Implement the chatbot interface using Streamlit.
 
 Enable user interaction through the UI.
 
-Connect to LLM
-
+2. Connect to LLM
 Utilize LangChain for managing interactions with the LLM (Large Language Model).
 
 Leverage Groq as the LLM provider.
 
-Integrate RAG
-
-Upload and process documents.
+3. Integrate RAG
+Upload and process documents (PDF, text, etc.).
 
 Generate vector embeddings for efficient information retrieval.
 
@@ -43,26 +39,34 @@ Installation & Setup
 sh
 Copy
 Edit
-git clone https://github.com/yourusername/AI-Chatbot-RAG.git
-cd AI-Chatbot-RAG
-2. Install Dependencies
+git clone https://github.com/BadagiAnanya/Chatbot.git  
+cd Chatbot
+2. Install Dependencies using Pipenv
+Ensure you have Pipenv installed. If not, install it using:
+
 sh
 Copy
 Edit
-pip install -r requirements.txt
+pip install pipenv
+Then, install project dependencies:
+
+sh
+Copy
+Edit
+pipenv install
 3. Set Up Environment Variables
-Create a .env file and add:
+Create a .env file and add your API keys:
 
 ini
 Copy
 Edit
-GROQ_API_KEY=your_groq_api_key
-OPENAI_API_KEY=your_openai_api_key
+GROQ_API_KEY=your_groq_api_key  
+OPENAI_API_KEY=your_openai_api_key  
 4. Run the Streamlit App
 sh
 Copy
 Edit
-streamlit run app.py
+pipenv run streamlit run model.py
 Usage
 Open the Streamlit UI in your browser.
 
@@ -70,5 +74,6 @@ Upload a document (PDF, text, etc.).
 
 The chatbot will generate responses based on the document using RAG.
 
-URL: chatbot ∙ main ∙ Chatbot/model.py
-
+## **Deployed Model**  
+You can use the deployed chatbot at:  
+📌 [Chatbot Interface](https://github.com/BadagiAnanya/Chatbot/blob/main/Chatbot/model.py)
