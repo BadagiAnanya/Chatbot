@@ -33,7 +33,7 @@ for message in st.session_state.messages:
 # Phase 3 (Pre-requisite)
 @st.cache_resource
 def get_vectorstore():
-    pdf_name = "./reflexion.pdf"
+    pdf_name = "reflexion.pdf"
     loaders = [PyPDFLoader(pdf_name)]
     # Create chunks, aka vector database–Chromadb
     index = VectorstoreIndexCreator(
