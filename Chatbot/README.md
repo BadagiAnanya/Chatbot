@@ -69,3 +69,6 @@ Open the Streamlit UI in your browser.
 Upload a document (PDF, text, etc.).
 
 The chatbot will generate responses based on the document using RAG.
+
+URL: chatbot ∙ main ∙ Chatbot/model.py
+
